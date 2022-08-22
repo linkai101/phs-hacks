@@ -1,0 +1,26 @@
+[
+    {
+        "q": "What is a \"hackathon\"?",
+        "a": "A hackathon is a weekend event where people come together to create and share ideas and projects."
+    },
+    {
+        "q": "Do you guys actually hack?",
+        "a": "The \"hack\" in hackathon doesn't actually mean infiltrating a system or computer. It's a lot simpler than that. In this context, hacking means creating a rough solution to a problem, so a hackathon would be a coding marathon where teams attempt to create a solution to a problem."
+    },
+    {
+        "q": "How much does it cost?",
+        "a": "NOTHING! The hackathon is free! All you need to do is register."
+    },
+    {
+        "q": "What's the registration process?",
+        "a": "First, fill out the information on the register. Then, after pre-registration ends, you can upload a signed copy of the Code of Conduct and Waiver/Media Consent Form. Finally, a team member will review your documents and confirm you!"
+    },
+    {
+        "q": "What if I don't know how to code?",
+        "a": "That's alright! We will have workshops over the course of the hackathon that can teach you the basics of programming. And, we'll have mentors who can help you along the way."
+    },
+    {
+        "q": "What should I bring?",
+        "a": "Bring your laptop, a charger, and some snacks. You can also bring a sleeping bag if you're tired. Make sure you bring a ID or an electronic to show your StudentVue dashboard."
+    }
+]
