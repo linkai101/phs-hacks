@@ -18,6 +18,7 @@ import Image from "next/image";
 import AssembleImage from "../public/assemble.jpg";
 import Link from "next/link";
 import FAQ from "../public/data/faq.json";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 const Home: NextPage = () => {
     const [loading, setLoading] = useState(true);
@@ -39,8 +40,8 @@ const Home: NextPage = () => {
             if (localStorage.getItem("loaded")) {
                 setLoading(false);
                 setTimeout(() => {
-                    bar.current?.classList.add("hidden")
-                }, 1000)
+                    bar.current?.classList.add("hidden");
+                }, 1000);
             } else {
                 bar.current?.classList.add("hidden");
                 setTimeout(() => {
@@ -105,6 +106,9 @@ const Home: NextPage = () => {
             });
 
             camera.position.z = 5;
+            const controls = new OrbitControls(camera, renderer.domElement);
+            // In the renderScene function
+
             const animate = () => {
                 requestAnimationFrame(animate);
                 canvas.width = window.innerWidth;
@@ -112,7 +116,9 @@ const Home: NextPage = () => {
 
                 starsGroup.rotateX(0.001);
                 starsGroup.rotateY(0.001);
-
+                controls.update();
+                controls.enablePan = true;
+                controls.enableZoom = true;
                 renderer.render(scene, camera);
             };
             animate();
@@ -130,7 +136,7 @@ const Home: NextPage = () => {
             <Layout>
                 <section className="pt-40 min-h-[80vh] w-screen overflow-hidden relative">
                     <canvas
-                        className="absolute top-0 left-0 z-0"
+                        className="absolute top-0 left-0 z-0 cursor-grab"
                         ref={ref}
                     ></canvas>
                     <Text className="absolute font-bold top-30 md:top-40 -left-5 text-7xl md:text-[12rem] outlined text-transparent">
@@ -251,23 +257,19 @@ const Home: NextPage = () => {
                             FAQ
                         </Text>
                         <Accordion className="w-full" allowToggle={true}>
-                            {
-                            FAQ.map((faq) => (
+                            {FAQ.map((faq) => (
                                 <AccordionItem key={faq.q}>
-                                <AccordionButton>
-                                    <Text className="text-2xl">
-                                        {faq.q}
-                                    </Text>
-                                </AccordionButton>
-                                <AccordionPanel>
-                                    <Text className="text-xl">
-                                        {faq.a}
-                                    </Text>
-                                </AccordionPanel>
-                            </AccordionItem>
-                            ))
-                        }</Accordion>
-                   
+                                    <AccordionButton>
+                                        <Text className="text-2xl">
+                                            {faq.q}
+                                        </Text>
+                                    </AccordionButton>
+                                    <AccordionPanel>
+                                        <Text className="text-xl">{faq.a}</Text>
+                                    </AccordionPanel>
+                                </AccordionItem>
+                            ))}
+                        </Accordion>
                     </div>
                 </section>
             </Layout>
