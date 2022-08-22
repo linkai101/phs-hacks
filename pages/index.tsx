@@ -201,7 +201,7 @@ const Home: NextPage = () => {
                             About
                         </Text>
                         <div className="flex gap-5 flex-wrap   mt-2">
-                            <div className="flex flex-1 flex-col min-w-[400px] ">
+                            <div className="flex flex-1 flex-col min-w-[300px] ">
                                 <Text className="text-2xl">
                                     Hey hacker! Join us for our hackathon,
                                     poolesville_hacks 2! Wait, don&apos;t go! I
@@ -219,7 +219,7 @@ const Home: NextPage = () => {
                                     more!
                                 </Text>
                             </div>
-                            <div className="flex flex-1 min-w-[400px] flex-col  h-full">
+                            <div className="flex flex-1 min-w-[300px] flex-col  h-full">
                                 <Image
                                     src={AssembleImage}
                                     className="rounded-lg"

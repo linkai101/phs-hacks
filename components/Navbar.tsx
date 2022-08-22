@@ -9,9 +9,9 @@ function Navbar() {
     return (
         <nav
             className={`w-screen ${menuOpen ? "h-screen" : "h-16"}
-            bg-transparent
-            fixed top-0
-            z-20
+            
+            fixed top-0 z-20 transition-all
+            ${menuOpen ? "bg-black" : "bg-transparent"}
             `}
         >
             <div className="w-4/5 h-full max-w-6xl mx-auto flex items-starts justify-between">
