@@ -164,7 +164,7 @@ const Home: NextPage = () => {
                                     target="_blank"
                                 >
                                     <a
-                                        className={`text-xl p-2 mt-2 w-fit hidden text-center bg-white text-black border-2 border-black transition-all md:block hover:bg-black hover:text-white hover:border-2 hover:border-white`}
+                                        className={`text-xl leading-none p-3 font-semibold mt-2 w-fit hidden text-center bg-white text-black border-2 border-black transition-all md:block hover:bg-black hover:text-white hover:border-2 hover:border-white`}
                                     >
                                         Interest Form
                                     </a>

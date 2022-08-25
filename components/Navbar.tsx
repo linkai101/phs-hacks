@@ -10,7 +10,7 @@ function Navbar() {
         <nav
             className={`w-screen ${menuOpen ? "h-screen" : "h-16"}
             
-            fixed top-0 z-20 transition-all
+            absolute top-0 z-20 transition-all
             ${menuOpen ? "bg-black" : "bg-transparent"}
             `}
         >
@@ -42,8 +42,8 @@ function Navbar() {
                         href="https://live.poolesvillehacks.tech/"
                         target="_blank"
                     >
-                        <a className="text-xl p-2 md:hidden text-center bg-white text-black ">
-                            Register
+                        <a className="text-xl p-1 font-semibold md:hidden text-center bg-white text-black ">
+                            Interest Form
                         </a>
                     </Link>
                 </div>
@@ -53,7 +53,7 @@ function Navbar() {
                         target="_blank"
                     >
                         <a
-                            className={`text-xl p-2 hidden text-center bg-white text-black md:block`}
+                            className={`text-xl leading-none p-3 font-semibold hidden text-center bg-white text-black md:block`}
                         >
                             Interest Form
                         </a>
