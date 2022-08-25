@@ -160,7 +160,7 @@ const Home: NextPage = () => {
                                 </Text>
 
                                 <Link
-                                    href="https://live.poolesvillehacks.tech/"
+                                    href="https://form.poolesvillehacks.tech/"
                                     target="_blank"
                                 >
                                     <a
