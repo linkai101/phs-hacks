@@ -14,7 +14,7 @@ function Navbar() {
             ${menuOpen ? "bg-black" : "bg-transparent"}
             `}
         >
-            <div className="w-4/5 h-full max-w-6xl mx-auto flex items-starts justify-between">
+            <div className="w-4/5 h-full max-w-6xl mx-auto flex items-starts justify-between relative">
                 <div className="h-16 flex items-center">
                     <Link href="/">
                         <Image src={MainIcon} width="50" height="50" />
@@ -23,7 +23,7 @@ function Navbar() {
                 <div
                     className={`flex flex-col gap-5 mt-16 ${
                         menuOpen ? "h-full" : "h-0"
-                    } overflow-hidden md:flex-row md:h-full md:mt-0 transition-[height] items-center`}
+                    } overflow-hidden md:flex-row md:h-full md:mt-0 transition-[height] items-center absolute left-1/2 -translate-x-1/2`}
                 >
                     <Link href="/">
                         <a className="text-xl text-center">Home</a>
@@ -55,7 +55,7 @@ function Navbar() {
                         <a
                             className={`text-xl p-2 hidden text-center bg-white text-black md:block`}
                         >
-                            Register
+                            Interest Form
                         </a>
                     </Link>
                     <button

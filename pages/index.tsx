@@ -166,7 +166,7 @@ const Home: NextPage = () => {
                                     <a
                                         className={`text-xl p-2 mt-2 w-fit hidden text-center bg-white text-black border-2 border-black transition-all md:block hover:bg-black hover:text-white hover:border-2 hover:border-white`}
                                     >
-                                        Register
+                                        Interest Form
                                     </a>
                                 </Link>
                                 <Text
@@ -201,8 +201,8 @@ const Home: NextPage = () => {
                     <div className="w-4/5 max-w-6xl mx-auto">
                         <Text
                             as="h1"
-                            className="text-4xl font-semibold scroll-mt-8"
-                            id="#about"
+                            className="text-4xl font-semibold scroll-mt-16"
+                            id="about"
                         >
                             About
                         </Text>
