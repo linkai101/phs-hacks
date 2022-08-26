@@ -2,6 +2,7 @@ import { Text } from "@chakra-ui/react";
 import { mdiEmail, mdiInstagram } from "@mdi/js";
 import Icon from "@mdi/react";
 import Link from "next/link"
+import Image from "next/image"
 const Footer = () => {
     return (
         <footer className="footer py-16">
@@ -36,7 +37,20 @@ const Footer = () => {
                     poolesville_hacks is fiscally sponsored by The Hack
                     Foundation.
                     <br /> EIN: 81-2908499 <br /> Website made with ❤️ by Jaden
+                    <br />
+                    <span className="text-lg">Club Affilates:</span>
                 </Text>
+                <div>
+                    <Link href="https://www.mocoinnovation.org/">
+                        <Image
+                            src="/affilates/mocoinnovation.png"
+                            width="24"
+                            height="24"
+                            alt="moco innovation"
+                            className="cursor-pointer"
+                        />
+                    </Link>
+                </div>
             </div>
         </footer>
     );
