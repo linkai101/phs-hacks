@@ -40,14 +40,23 @@ const Footer = () => {
                     <br />
                     <span className="text-lg">Club Affilates:</span>
                 </Text>
-                <div>
+                <div className="flex gap-2">
                     <Link href="https://www.mocoinnovation.org/">
                         <Image
                             src="/affilates/mocoinnovation.png"
                             width="24"
                             height="24"
                             alt="moco innovation"
-                            className="cursor-pointer"
+                            className="cursor-pointer rounded"
+                        />
+                    </Link>
+                    <Link href="https://www.instagram.com/girlswhocodepoolesville/">
+                        <Image
+                            src="/affilates/gwc.jpg"
+                            width="24"
+                            height="24"
+                            alt="girls who code"
+                            className="cursor-pointer rounded"
                         />
                     </Link>
                 </div>

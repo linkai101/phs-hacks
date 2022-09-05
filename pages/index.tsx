@@ -19,8 +19,11 @@ import AssembleImage from "../public/assemble.jpg";
 import Link from "next/link";
 import FAQ from "../public/data/faq.json";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import Team from "../components/Team";
+import Sponsors from "../public/data/sponsors.json";
+import WithSupportFrom from "../public/data/withSupportFrom.json";
 
-const Home: NextPage = () => {
+const Home = () => {
     const [loading, setLoading] = useState(true);
     const bar = useRef<HTMLDivElement>(null);
 
@@ -148,13 +151,13 @@ const Home: NextPage = () => {
                     <div className="relative z-10 top-10 md:top-40">
                         <div className="w-4/5 max-w-6xl mx-auto">
                             <div className="flex flex-col gap-1 border border-white max-w-fit p-8 bg-black">
-                                <Text className="text-6xl font-semibold">
+                                <Text className="text-5xl font-semibold md:text-6xl">
                                     poolesville_<wbr></wbr>hacks 2
                                 </Text>
-                                <Text className="text-3xl font-light">
+                                <Text className="text-2xl font-light md:text-3xl">
                                     November 11, 2022 - November 13, 2022
                                 </Text>
-                                <Text className="flex items-center text-2xl font-light">
+                                <Text className="flex items-center text-xl md:text-2xl font-light">
                                     <Icon path={mdiMapMarker} size={1} />
                                     TBD
                                 </Text>
@@ -249,6 +252,47 @@ const Home: NextPage = () => {
                             There would be absolutely no way we would be able to
                             run this event without our wonderful sponsors.
                         </Text>
+                        <div className="flex flex-wrap gap-4">
+                            {Sponsors.map((sponsor) => (
+                                <a
+                                    href={sponsor.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    key={sponsor.name}
+                                >
+                                    <Image
+                                        src={`/sponsors/${sponsor.path}`}
+                                        className="rounded-lg"
+                                        objectFit="contain"
+                                        alt={sponsor.name}
+                                        width="300"
+                                        height="200"
+                                    ></Image>
+                                </a>
+                            ))}
+                        </div>
+                        <Text as="h1" className="text-3xl font-semibold">
+                            With support from
+                        </Text>
+                        <div className="flex flex-wrap gap-4">
+                            {WithSupportFrom.map((sponsor) => (
+                                <a
+                                    href={sponsor.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    key={sponsor.name}
+                                >
+                                    <Image
+                                        src={`/sponsors/withsupportfrom/${sponsor.path}`}
+                                        className="rounded-lg"
+                                        objectFit="contain"
+                                        alt={sponsor.name}
+                                        width="200"
+                                        height="100"
+                                    ></Image>
+                                </a>
+                            ))}
+                        </div>
                     </div>
                 </section>
                 <section className="w-full bg-slate-900 py-16">
@@ -272,6 +316,7 @@ const Home: NextPage = () => {
                         </Accordion>
                     </div>
                 </section>
+                <Team />
             </Layout>
         </>
     );
