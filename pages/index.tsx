@@ -21,7 +21,7 @@ import FAQ from "../public/data/faq.json";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import Team from "../components/Team";
 import Sponsors from "../public/data/sponsors.json";
-import WithSupportFrom from "../public/data/withSupportFrom.json";
+import WithSupportFrom from "../public/data/withsupportfrom.json";
 
 const Home = () => {
     const [loading, setLoading] = useState(true);
