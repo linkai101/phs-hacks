@@ -59,6 +59,15 @@ const Footer = () => {
                             className="cursor-pointer rounded"
                         />
                     </Link>
+                    <Link href="https://discord.gg/ST5nRCuEQr">
+                        <Image
+                            src="/affilates/phsct.jpg"
+                            width="24"
+                            height="24"
+                            alt="PHS Computer Team"
+                            className="cursor-pointer rounded"
+                        />
+                    </Link>
                 </div>
             </div>
         </footer>
