@@ -16,7 +16,7 @@ const Member = ({
     url?: string;
 }) => {
     return (
-        <div className="max-w-[200px] flex items-center justify-center gap-3">
+        <div className="max-w-[200px] flex items-start justify-start gap-3">
             <Avatar name={name} src={image} size="md" />
             <div>
                 <a className="text-lg" href={url}>
@@ -37,7 +37,7 @@ const Team = () => {
                 <Text as="h1" className="text-4xl font-semibold">
                     Team
                 </Text>
-                <div className="flex gap-8 flex-wrap items-center justify-evenly">
+                <div className="grid grid-cols-5 auto-rows-[100px] gap-8">
                     {team.map((member) => (
                         <Member
                             key={member.name}

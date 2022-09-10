@@ -293,6 +293,16 @@ const Home = () => {
                                 </a>
                             ))}
                         </div>
+                        <div className="w-full flex items-center justify-center flex-col text-xl">
+                            Interested in sponsoring? Check out our prospectus!
+                            <Link href="/prospectus.pdf" target="_blank">
+                                <a
+                                    className={`text-xl leading-none p-3 font-semibold mt-2 w-fit hidden text-center bg-white text-slate-900  border-2 border-slate-900 transition-all md:block hover:bg-slate-900 hover:text-white hover:border-2 hover:border-white`}
+                                >
+                                    Sponsorship Prospectus
+                                </a>
+                            </Link>
+                        </div>
                     </div>
                 </section>
                 <section className="w-full bg-slate-900 py-16">
