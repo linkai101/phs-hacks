@@ -68,6 +68,15 @@ const Footer = () => {
                             className="cursor-pointer rounded"
                         />
                     </Link>
+                    <Link href="https://phsgamedesignstudio.github.io/">
+                        <Image
+                            src="/affilates/phsgame.png"
+                            width="24"
+                            height="24"
+                            alt="PHS Game Design Club"
+                            className="cursor-pointer rounded"
+                        />
+                    </Link>
                 </div>
             </div>
         </footer>
