@@ -61,7 +61,7 @@ const Footer = () => {
                     </Link>
                     <Link href="https://discord.gg/ST5nRCuEQr">
                         <Image
-                            src="/affilates/phsct.jpg"
+                            src="/affilates/phsct.png"
                             width="24"
                             height="24"
                             alt="PHS Computer Team"
