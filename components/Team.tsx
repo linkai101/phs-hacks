@@ -37,7 +37,7 @@ const Team = () => {
                 <Text as="h1" className="text-4xl font-semibold">
                     Team
                 </Text>
-                <div className="grid grid-cols-5 auto-rows-[100px] gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5  auto-rows-[100px] gap-8">
                     {team.map((member) => (
                         <Member
                             key={member.name}
