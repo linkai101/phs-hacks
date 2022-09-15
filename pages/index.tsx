@@ -111,7 +111,7 @@ const Home = () => {
             camera.position.z = 5;
             const controls = new OrbitControls(camera, renderer.domElement);
             // In the renderScene function
-
+            controls.enableZoom = false;
             const animate = () => {
                 requestAnimationFrame(animate);
                 canvas.width = window.innerWidth;
