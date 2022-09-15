@@ -110,8 +110,7 @@ const Home = () => {
 
             camera.position.z = 5;
             const controls = new OrbitControls(camera, renderer.domElement);
-            // In the renderScene function
-            controls.enableZoom = false;
+
             const animate = () => {
                 requestAnimationFrame(animate);
                 canvas.width = window.innerWidth;
@@ -121,7 +120,7 @@ const Home = () => {
                 starsGroup.rotateY(0.001);
                 controls.update();
                 controls.enablePan = true;
-                controls.enableZoom = true;
+                controls.enableZoom = false;
                 renderer.render(scene, camera);
             };
             animate();
@@ -141,7 +140,7 @@ const Home = () => {
                     <canvas
                         className="absolute top-0 left-0 z-0 cursor-grab"
                         ref={ref}
-                    ></canvas>
+                                  ></canvas>
                     <Text className="absolute font-bold top-30 md:top-40 -left-5 text-7xl md:text-[12rem] outlined text-transparent">
                         HACK
                     </Text>
@@ -151,7 +150,7 @@ const Home = () => {
                     <div className="relative z-10 top-10 md:top-40">
                         <div className="w-4/5 max-w-6xl mx-auto">
                             <div className="flex flex-col gap-1 border border-white max-w-fit p-8 bg-black">
-                                <Text className="text-5xl font-semibold md:text-6xl">
+                                <Text className="text-3xl sm:text-5xl font-semibold md:text-6xl">
                                     poolesville_<wbr></wbr>hacks 2
                                 </Text>
                                 <Text className="text-2xl font-light md:text-3xl">
@@ -185,7 +184,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className="w-full bg-slate-900 py-32 border-t-4">
+                <section className="w-full bg-slate-900 py-32 border-t-4" id="start">
                     <div className="w-4/5 max-w-6xl mx-auto">
                         <Text className="text-2xl text-center">
                             Last spring, over{" "}
@@ -253,7 +252,27 @@ const Home = () => {
                             run this event without our wonderful sponsors.
                         </Text>
                         <div className="flex flex-wrap gap-4">
-                            {Sponsors.map((sponsor) => (
+                            {Sponsors.map((sponsor) =>{
+                                const getSize = (tier: string) => {
+                                    if (!tier || tier === "iron") {
+                                        return [200, 100]
+                                    } 
+                                    else if (tier === "bronze") {
+                                        return [300, 100]
+                                    }
+                                    else if (tier === "silver") {
+                                        return [400, 200];
+                                    }
+                                    else if (tier === "gold") {
+                                        return [500, 300];
+                                    }
+                                    else if (tier === "platinum") {
+                                        return [600, 400];
+                                    }
+                                    return [200, 100]
+                                }
+                                const dimensions = getSize(sponsor.tier)
+                                return (
                                 <a
                                     href={sponsor.url}
                                     target="_blank"
@@ -265,11 +284,12 @@ const Home = () => {
                                         className="rounded-lg"
                                         objectFit="contain"
                                         alt={sponsor.name}
-                                        width="300"
-                                        height="200"
+                                        width={dimensions[0]}
+                                        height={dimensions[1]}
                                     ></Image>
                                 </a>
-                            ))}
+                            )
+                            })}
                         </div>
                         <Text as="h1" className="text-3xl font-semibold">
                             With support from
