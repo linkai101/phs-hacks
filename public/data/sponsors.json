@@ -3,18 +3,24 @@
         "name": "Sentry",
         "path": "sentry.svg",
         "url": "https://sentry.io/welcome/",
-        "tier":"bronze"
+        "tier": "bronze"
     },
     {
         "name": "Sticker Giant",
         "path": "stickergiant.svg",
         "url": "https://www.stickergiant.com/",
-        "tier":"iron"
+        "tier": "iron"
     },
     {
         "name": "Wolfram Language",
         "path": "wolfram.png",
         "url": "https://www.wolfram.com/wolfram-one/",
-        "tier":"iron"
+        "tier": "iron"
+    },
+    {
+        "name": "Beacons",
+        "path": "beacons.png",
+        "url": "https://beacons.ai/",
+        "tier": "iron"
     }
 ]
