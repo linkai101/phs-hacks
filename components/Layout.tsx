@@ -13,7 +13,7 @@ function Layout({ children }: LayoutProps) {
                 <title>poolesville_hacks</title>
                 <meta
                     name="description"
-                    content="Join us for poolesville_hacks 2 IN PERSON!"
+                    content="Join us for poolesville_hacks 2 IN PERSON! A free 24-hour hackathon for high school students in the DC area."
                 />
                 <meta
                     name="viewport"
@@ -21,7 +21,7 @@ function Layout({ children }: LayoutProps) {
                 ></meta>
                 <meta
                     name="keywords"
-                    content="poolesville, hacks, poolesvillehacks, poolesville hacks, poolesville high school, poolesville_hacks, phs hacks, hackathon"
+                    content="poolesville, hacks, poolesvillehacks, poolesville hacks, poolesville high school, poolesville_hacks, phs hacks, hackathon, high school hackathon, highschool"
                 />
 
                 <meta key="og_locale" property="og:locale" content="en_US" />

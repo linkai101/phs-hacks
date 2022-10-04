@@ -154,7 +154,7 @@ const Home = () => {
                                     poolesville_<wbr></wbr>hacks 2
                                 </Text>
                                 <Text className="text-2xl font-light md:text-3xl">
-                                    November 18, 2022 - November 20, 2022
+                                    November 19, 2022 - November 20, 2022
                                 </Text>
                                 <Text className="flex items-center text-xl md:text-2xl font-light">
                                     <Icon path={mdiMapMarker} size={1} />
@@ -220,7 +220,7 @@ const Home = () => {
                                     competition refers to a bunch of teams
                                     creating rough solutions to problems
                                     relating to a certain topic. <br />
-                                    <br /> Over the course of 36 hours,
+                                    <br /> Over the course of 24 hours,
                                     you&apos;ll spend time creating (or learning
                                     how to create) an awesome project, making a
                                     ton of friends, enjoying free food, and
