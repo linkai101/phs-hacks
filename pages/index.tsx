@@ -140,7 +140,7 @@ const Home = () => {
                     <canvas
                         className="absolute top-0 left-0 z-0 cursor-grab"
                         ref={ref}
-                                  ></canvas>
+                    ></canvas>
                     <Text className="absolute font-bold top-30 md:top-40 -left-5 text-7xl md:text-[12rem] outlined text-transparent">
                         HACK
                     </Text>
@@ -162,13 +162,13 @@ const Home = () => {
                                 </Text>
 
                                 <Link
-                                    href="https://form.poolesvillehacks.tech/"
+                                    href="https://register.poolesvillehacks.tech/"
                                     target="_blank"
                                 >
                                     <a
                                         className={`text-xl leading-none p-3 font-semibold mt-2 w-fit hidden text-center bg-white text-black border-2 border-black transition-all md:block hover:bg-black hover:text-white hover:border-2 hover:border-white`}
                                     >
-                                        Interest Form
+                                        Register
                                     </a>
                                 </Link>
                                 <Text
@@ -184,7 +184,10 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className="w-full bg-slate-900 py-32 border-t-4" id="start">
+                <section
+                    className="w-full bg-slate-900 py-32 border-t-4"
+                    id="start"
+                >
                     <div className="w-4/5 max-w-6xl mx-auto">
                         <Text className="text-2xl text-center">
                             Last spring, over{" "}
@@ -220,11 +223,10 @@ const Home = () => {
                                     competition refers to a bunch of teams
                                     creating rough solutions to problems
                                     relating to a certain topic. <br />
-                                    <br /> Over the course of a day,
-                                    you&apos;ll spend time creating (or learning
-                                    how to create) an awesome project, making a
-                                    ton of friends, enjoying free food, and
-                                    more!
+                                    <br /> Over the course of a day, you&apos;ll
+                                    spend time creating (or learning how to
+                                    create) an awesome project, making a ton of
+                                    friends, enjoying free food, and more!
                                 </Text>
                             </div>
                             <div className="flex flex-1 min-w-[300px] flex-col  h-full">
@@ -252,43 +254,39 @@ const Home = () => {
                             run this event without our wonderful sponsors.
                         </Text>
                         <div className="flex flex-wrap gap-4">
-                            {Sponsors.map((sponsor) =>{
+                            {Sponsors.map((sponsor) => {
                                 const getSize = (tier: string) => {
                                     if (!tier || tier === "iron") {
-                                        return [200, 100]
-                                    } 
-                                    else if (tier === "bronze") {
-                                        return [300, 100]
-                                    }
-                                    else if (tier === "silver") {
+                                        return [200, 100];
+                                    } else if (tier === "bronze") {
+                                        return [300, 100];
+                                    } else if (tier === "silver") {
                                         return [400, 200];
-                                    }
-                                    else if (tier === "gold") {
+                                    } else if (tier === "gold") {
                                         return [500, 300];
-                                    }
-                                    else if (tier === "platinum") {
+                                    } else if (tier === "platinum") {
                                         return [600, 400];
                                     }
-                                    return [200, 100]
-                                }
-                                const dimensions = getSize(sponsor.tier)
+                                    return [200, 100];
+                                };
+                                const dimensions = getSize(sponsor.tier);
                                 return (
-                                <a
-                                    href={sponsor.url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    key={sponsor.name}
-                                >
-                                    <Image
-                                        src={`/sponsors/${sponsor.path}`}
-                                        className="rounded-lg"
-                                        objectFit="contain"
-                                        alt={sponsor.name}
-                                        width={dimensions[0]}
-                                        height={dimensions[1]}
-                                    ></Image>
-                                </a>
-                            )
+                                    <a
+                                        href={sponsor.url}
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        key={sponsor.name}
+                                    >
+                                        <Image
+                                            src={`/sponsors/${sponsor.path}`}
+                                            className="rounded-lg"
+                                            objectFit="contain"
+                                            alt={sponsor.name}
+                                            width={dimensions[0]}
+                                            height={dimensions[1]}
+                                        ></Image>
+                                    </a>
+                                );
                             })}
                         </div>
                         <Text as="h1" className="text-3xl font-semibold">

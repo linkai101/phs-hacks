@@ -39,11 +39,11 @@ function Navbar() {
                     </Link>
 
                     <Link
-                        href="https://form.poolesvillehacks.tech/"
+                        href="https://register.poolesvillehacks.tech/"
                         target="_blank"
                     >
                         <a className="text-xl p-1 font-semibold md:hidden text-center bg-white text-black ">
-                            Interest Form
+                            Register
                         </a>
                     </Link>
                 </div>
