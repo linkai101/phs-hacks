@@ -49,13 +49,13 @@ function Navbar() {
                 </div>
                 <div className="h-16 flex items-center">
                     <Link
-                        href="https://form.poolesvillehacks.tech/"
+                        href="https://register.poolesvillehacks.tech/"
                         target="_blank"
                     >
                         <a
                             className={`text-xl leading-none p-3 font-semibold hidden text-center bg-white text-black md:block`}
                         >
-                            Interest Form
+                            Register
                         </a>
                     </Link>
                     <button
