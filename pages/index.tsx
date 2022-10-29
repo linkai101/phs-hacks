@@ -154,7 +154,7 @@ const Home = () => {
                                     poolesville_<wbr></wbr>hacks 2
                                 </Text>
                                 <Text className="text-2xl font-light md:text-3xl">
-                                    Jan/Feb
+                                    Feburary 25th, 2023
                                 </Text>
                                 <Text className="flex items-center text-xl md:text-2xl font-light">
                                     <Icon path={mdiMapMarker} size={1} />
