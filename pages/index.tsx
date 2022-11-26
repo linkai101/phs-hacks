@@ -158,7 +158,7 @@ const Home = () => {
                                 </Text>
                                 <Text className="flex items-center text-xl md:text-2xl font-light">
                                     <Icon path={mdiMapMarker} size={1} />
-                                    Coming Soon
+                                    Poolesville Baptist Church
                                 </Text>
 
                                 <Link
