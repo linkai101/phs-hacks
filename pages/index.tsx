@@ -156,10 +156,10 @@ const Home = () => {
                                 <Text className="text-2xl font-light md:text-3xl">
                                     April 14th
                                 </Text>
-                                {/* <Text className="flex items-center text-xl md:text-2xl font-light">
+                                <Text className="flex items-center text-xl md:text-2xl font-light">
                                     <Icon path={mdiMapMarker} size={1} />
                                     Poolesville Baptist Church
-                                </Text> */}
+                                </Text> 
 
                                 <Link
                                     href="https://register.poolesvillehacks.tech/"
