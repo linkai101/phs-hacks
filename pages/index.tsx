@@ -161,7 +161,7 @@ const Home = () => {
                                     Poolesville Baptist Church
                                 </Text> 
 
-                                <Link
+                                {/* <Link
                                     href="https://register.poolesvillehacks.tech/"
                                     target="_blank"
                                 >
@@ -170,7 +170,7 @@ const Home = () => {
                                     >
                                         Register
                                     </a>
-                                </Link>
+                                </Link> */}
                                 <Text
                                     as="a"
                                     href="https://airtable.com/shrBuANlPHgAG93wD"
