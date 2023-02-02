@@ -169,7 +169,7 @@ const Home = () => {
                                     >
                                         Register
                                     </a>
-                                </Link> */}
+                                </Link>
                                 <Text
                                     as="a"
                                     href="https://airtable.com/shrBuANlPHgAG93wD"
