@@ -160,7 +160,6 @@ const Home = () => {
                                     <Icon path={mdiMapMarker} size={1} />
                                     Poolesville Baptist Church
                                 </Text> 
-
                                 <Link
                                     href="https://organize.mlh.io/participants/events/8630-poolesville_hacks-2"
                                     target="_blank"
@@ -170,7 +169,7 @@ const Home = () => {
                                     >
                                         Register
                                     </a>
-                                </Link>
+                                </Link> */}
                                 <Text
                                     as="a"
                                     href="https://airtable.com/shrBuANlPHgAG93wD"
