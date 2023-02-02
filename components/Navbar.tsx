@@ -38,17 +38,17 @@ function Navbar() {
                         <a className="text-xl text-center">Prizes</a>
                     </Link>
 
-                    <Link
+                    {/* <Link
                         href="https://register.poolesvillehacks.tech/"
                         target="_blank"
                     >
                         <a className="text-xl p-1 font-semibold md:hidden text-center bg-white text-black ">
                             Register
                         </a>
-                    </Link>
+                    </Link> */}
                 </div>
                 <div className="h-16 flex items-center">
-                    <Link
+                    {/* <Link
                         href="https://register.poolesvillehacks.tech/"
                         target="_blank"
                     >
@@ -57,7 +57,7 @@ function Navbar() {
                         >
                             Register
                         </a>
-                    </Link>
+                    </Link> */}
                     <button
                         className="md:hidden"
                         onClick={() => {
