@@ -39,7 +39,7 @@ function Navbar() {
                     </Link>
 
                     <Link
-                        href="https://register.poolesvillehacks.tech/"
+                        href="https://organize.mlh.io/participants/events/8630-poolesville_hacks-2"
                         target="_blank"
                     >
                         <a className="text-xl p-1 font-semibold md:hidden text-center bg-white text-black ">
@@ -49,7 +49,7 @@ function Navbar() {
                 </div>
                 <div className="h-16 flex items-center">
                     <Link
-                        href="https://register.poolesvillehacks.tech/"
+                        href="https://organize.mlh.io/participants/events/8630-poolesville_hacks-2"
                         target="_blank"
                     >
                         <a
