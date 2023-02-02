@@ -160,17 +160,16 @@ const Home = () => {
                                     <Icon path={mdiMapMarker} size={1} />
                                     Poolesville Baptist Church
                                 </Text> 
-
-                                {/* <Link
-                                    href="https://register.poolesvillehacks.tech/"
+                                <Link
+                                    href="https://organize.mlh.io/participants/events/8630-poolesville_hacks-2"
                                     target="_blank"
                                 >
                                     <a
-                                        className={`text-xl leading-none p-3 font-semibold mt-2 w-fit hidden text-center bg-white text-black border-2 border-black transition-all md:block hover:bg-black hover:text-white hover:border-2 hover:border-white`}
+                                        className={`text-xl leading-none p-3 font-semibold mt-2 w-fit text-center bg-white text-black border-2 border-black transition-all md:block hover:bg-black hover:text-white hover:border-2 hover:border-white`}
                                     >
                                         Register
                                     </a>
-                                </Link> */}
+                                </Link>
                                 <Text
                                     as="a"
                                     href="https://airtable.com/shrBuANlPHgAG93wD"

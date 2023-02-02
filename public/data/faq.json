@@ -1,7 +1,7 @@
 [
     {
         "q": "What is a \"hackathon\"?",
-        "a": "A hackathon is a weekend event where like-minded people come together to create and share ideas and projects."
+        "a": "A hackathon is a weekend event where people come together to create and share ideas and projects."
     },
     {
         "q": "Do you guys actually hack?",
@@ -13,7 +13,7 @@
     },
     {
         "q": "What's the registration process?",
-        "a": "First, fill out the information on the register. Then, after pre-registration ends, you can upload a signed copy of the Code of Conduct and Waiver/Media Consent Form. Finally, a team member will review your documents and confirm you!"
+        "a": "First, fill out the information on the MLH portal. A few weeks before the event, we will send out an email to gather MCPS field trip forms and/or event waivers. This will act as our RSVP."
     },
     {
         "q": "What if I don't know how to code?",
@@ -22,9 +22,5 @@
     {
         "q": "What should I bring?",
         "a": "Bring your laptop, a charger, and some snacks. You can also bring a sleeping bag if you're tired. Make sure you bring a ID or an electronic to show your StudentVue dashboard."
-    },
-    {
-        "q": "Is food provided?",
-        "a": "Yes, food is provided free of charge. If you have certain dietary restrictions, please let us know in the registration form or by emailing us @ hello@poolesvillehacks.tech."
     }
 ]
