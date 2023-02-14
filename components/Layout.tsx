@@ -13,7 +13,7 @@ function Layout({ children }: LayoutProps) {
                 <title>poolesville_hacks</title>
                 <meta
                     name="description"
-                    content="Join us for poolesville_hacks 2 IN PERSON! A free 24-hour hackathon for high school students in the DC area."
+                    content="Join us for poolesville_hacks 2 IN PERSON! A free 10-hour hackathon for high school students in the DC area."
                 />
                 <meta
                     name="viewport"
@@ -40,7 +40,7 @@ function Layout({ children }: LayoutProps) {
                 />
                 <link rel="icon" type="image/svg+xml" href="/wird.svg" />
             </Head>
-            <Navbar />
+            {/* <Navbar /> */}
             <main className="overflow-x-hidden">{children}</main>
             <Footer/>
         </>
