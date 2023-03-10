@@ -1,8 +1,20 @@
 [
     {
+        "name": "MLH Pizza Fund",
+        "path": "mlh.png",
+        "url": "hhttps://mlh.gitbook.io/major-league-hacking-pizza-fund/GXukjsbPHOyBplCPibsj/",
+        "tier": "silver"
+    },
+    {
         "name": "Sentry",
         "path": "sentry.svg",
         "url": "https://sentry.io/welcome/",
+        "tier": "bronze"
+    },
+    {
+        "name": "Postman",
+        "path": "postman.png",
+        "url": "https://www.postman.com/student-program/#student-expert-program",
         "tier": "bronze"
     },
     {

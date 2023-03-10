@@ -17,21 +17,21 @@
         "name": "Arjun Rao",
         "image": "",
         "pronouns": "they/she/he",
-        "title": "General Ops + Media Lead",
+        "title": "Lead",
         "url": ""
     },
     {
         "name": "James Xu",
         "image": "",
         "pronouns": "he/him",
-        "title": "Tech Lead + Advisor",
+        "title": "Lead",
         "url": "https://jamesxu.dev/"
     },
     {
         "name": "Abhimanyu Ghosh",
         "image": "",
         "pronouns": "he/him",
-        "title": "Finance + Creative Lead",
+        "title": "Lead",
         "url": ""
     },
 
@@ -39,77 +39,35 @@
         "name": "Charles Hu",
         "image": "",
         "pronouns": "any pronouns",
-        "title": "Food and Safety Officer",
+        "title": "Officer",
         "url": ""
     },
     {
         "name": "Rithvik Kondragunta",
         "image": "",
         "pronouns": "he/him",
-        "title": "Business + Media Officer",
+        "title": "Team",
         "url": ""
     },
     {
         "name": "Caitlin Woodward",
         "image": "",
         "pronouns": "she/her",
-        "title": "Creative + Finance Officer",
+        "title": "Team",
         "url": "https://youtu.be/sQHq2Ykv404"
-    },
-    {
-        "name": "Jasmine Duan",
-        "image": "",
-        "pronouns": "she/her L/bozo",
-        "title": "Business",
-        "url": ""
-    },
-    {
-        "name": "Sylvia Yu",
-        "image": "",
-        "pronouns": "she/her",
-        "title": "Finance",
-        "url": ""
-    },
-    {
-        "name": "Shubham Bhatnagar",
-        "image": "",
-        "pronouns": "he/him",
-        "title": "Social Media",
-        "url": ""
-    },
-    {
-        "name": "Bryan Yung",
-        "image": "",
-        "pronouns": "he/him",
-        "title": "Business",
-        "url": ""
-    },
-    {
-        "name": "Andrew Guo",
-        "image": "",
-        "pronouns": "he/him",
-        "title": "Social Media",
-        "url": ""
     },
     {
         "name": "Isabela Magnoni",
         "image": "",
         "pronouns": "she/her",
-        "title": "Customer Service",
-        "url": ""
-    },
-    {
-        "name": "John Liu",
-        "image": "",
-        "pronouns": "he/him",
-        "title": "Games",
+        "title": "Team",
         "url": ""
     },
     {
         "name": "Ben Ren",
         "image": "",
         "pronouns": "he/him",
-        "title": "Games",
+        "title": "Team",
         "url": ""
     }
 ]

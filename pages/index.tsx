@@ -15,7 +15,7 @@ import * as THREE from "three";
 import { useState, useEffect, useCallback, useRef } from "react";
 import { AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import AssembleImage from "../public/assemble.jpg";
+import BHImage from "../public/bhmini.jpg";
 import Link from "next/link";
 import FAQ from "../public/data/faq.json";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
@@ -147,7 +147,7 @@ const Home = () => {
                     <Text className="absolute font-bold top-[30rem] md:top-[30rem] -right-5 text-7xl md:text-[12rem] outlined text-transparent ">
                         POOLESVILLE
                     </Text>
-                    <div className="relative z-10 top-10 md:top-40">
+                    <div className="relative z-10 top-10 md:top-30">
                         <div className="w-4/5 max-w-6xl mx-auto">
                             <div className="flex flex-col gap-1 border border-white max-w-fit p-8 bg-black">
                                 <Text className="text-3xl sm:text-5xl font-semibold md:text-6xl">
@@ -230,14 +230,13 @@ const Home = () => {
                             </div>
                             <div className="flex flex-1 min-w-[300px] flex-col  h-full">
                                 <Image
-                                    src={AssembleImage}
+                                    src={BHImage}
                                     className="rounded-lg"
                                     objectFit="cover"
                                     alt="Assemble, Hack Club's 2022 Summer Hackathon"
                                 ></Image>
                                 <Text className="text-slate-400 text-center">
-                                    Assemble, Hack Club&apos;s 2022 Summer
-                                    Hackathon
+                                    BlairHacks Mini &apos;22, our first in-person collaboration with BlairHacks
                                 </Text>
                             </div>
                         </div>
