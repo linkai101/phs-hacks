@@ -8,6 +8,12 @@ export default function Document() {
                 <Main />
                 <NextScript />
                 <script async src="https://cdn.splitbee.io/sb.js"></script>
+                <script
+                    async
+                    defer
+                    src="https://analytics.umami.is/script.js"
+                    data-website-id="e6178842-c84a-4a47-862c-c27c846b4757"
+                ></script>
             </body>
         </Html>
     );
