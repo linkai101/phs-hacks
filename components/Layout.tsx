@@ -13,7 +13,7 @@ function Layout({ children }: LayoutProps) {
                 <title>poolesville_hacks</title>
                 <meta
                     name="description"
-                    content="Join us for poolesville_hacks 2 IN PERSON! A free 10-hour hackathon for high school students in the DC area."
+                    content="Join us for poolesville_hacks 2 IN PERSON! A free 12-hour hackathon for high school students in the DC area."
                 />
                 <meta
                     name="viewport"
