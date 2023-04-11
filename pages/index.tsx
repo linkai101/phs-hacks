@@ -22,6 +22,8 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 import Team from "../components/Team";
 import Sponsors from "../public/data/sponsors.json";
 import WithSupportFrom from "../public/data/withsupportfrom.json";
+import Prizes from "../components/Prizes";
+import Tracks from "../components/Tracks";
 
 const Home = () => {
     const [loading, setLoading] = useState(true);
@@ -158,8 +160,10 @@ const Home = () => {
                                 </Text>
                                 <Text className="flex items-center text-xl md:text-2xl font-light">
                                     <Icon path={mdiMapMarker} size={1} />
-                                    Poolesville Baptist Church
-                                </Text> 
+                                    <Link href="https://www.google.com/maps/place/Poolesville+Baptist+Church/@39.1442556,-77.4202841,15z/data=!4m6!3m5!1s0x89b625262300648d:0x30107340051c5983!8m2!3d39.1442556!4d-77.4202841!16s%2Fg%2F1tfdzr1f">
+                                        Poolesville Baptist Church
+                                    </Link>
+                                </Text>
                                 <Link
                                     href="https://organize.mlh.io/participants/events/8630-poolesville_hacks-2"
                                     target="_blank"
@@ -236,7 +240,8 @@ const Home = () => {
                                     alt="Assemble, Hack Club's 2022 Summer Hackathon"
                                 ></Image>
                                 <Text className="text-slate-400 text-center">
-                                    BlairHacks Mini &apos;22, our first in-person collaboration with BlairHacks
+                                    BlairHacks Mini &apos;22, our first
+                                    in-person collaboration with BlairHacks
                                 </Text>
                             </div>
                         </div>
@@ -321,6 +326,8 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <Tracks/>
+                <Prizes/>
                 <section className="w-full bg-slate-900 py-16">
                     <div className="w-4/5 max-w-6xl mx-auto flex flex-col gap-4 items-center">
                         <Text as="h1" className="text-4xl font-semibold">
