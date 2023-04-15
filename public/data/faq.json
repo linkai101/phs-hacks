@@ -22,5 +22,9 @@
     {
         "q": "What should I bring?",
         "a": "Bring your laptop, a charger, and some snacks. If you want to do a hardware project, please bring your own kit or let us know in advance. Make sure you bring a ID or an electronic to show your StudentVue dashboard."
+    },
+    {
+        "q": "What if I don't have a team?",
+        "a": "Don't worry! We will have a team formation session at the beginning of the hackathon. You can also join our Discord server to find teammates."
     }
 ]
