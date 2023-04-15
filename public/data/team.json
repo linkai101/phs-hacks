@@ -3,7 +3,7 @@
         "name": "Jaden Hou",
         "image": "",
         "pronouns": "he/him",
-        "title": "Co-Founder",
+        "title": "Director",
         "url": "https://jadenhou.me"
     },
     {
@@ -16,7 +16,7 @@
     {
         "name": "Arjun Rao",
         "image": "",
-        "pronouns": "they/she/he",
+        "pronouns": "any pronouns",
         "title": "Lead",
         "url": ""
     },
@@ -24,7 +24,7 @@
         "name": "James Xu",
         "image": "",
         "pronouns": "he/him",
-        "title": "Lead",
+        "title": "Senior Lead",
         "url": "https://jamesxu.dev/"
     },
     {
@@ -34,27 +34,12 @@
         "title": "Lead",
         "url": ""
     },
-
     {
         "name": "Charles Hu",
         "image": "",
         "pronouns": "any pronouns",
-        "title": "Officer",
+        "title": "Lead",
         "url": ""
-    },
-    {
-        "name": "Rithvik Kondragunta",
-        "image": "",
-        "pronouns": "he/him",
-        "title": "Team",
-        "url": ""
-    },
-    {
-        "name": "Caitlin Woodward",
-        "image": "",
-        "pronouns": "she/her",
-        "title": "Team",
-        "url": "https://youtu.be/sQHq2Ykv404"
     },
     {
         "name": "Isabela Magnoni",
