@@ -24,6 +24,7 @@ import Sponsors from "../public/data/sponsors.json";
 import WithSupportFrom from "../public/data/withsupportfrom.json";
 import Prizes from "../components/Prizes";
 import Tracks from "../components/Tracks";
+import Schedule from "../components/Schedule";
 
 const Home = () => {
     const [loading, setLoading] = useState(true);
@@ -328,6 +329,7 @@ const Home = () => {
                 </section>
                 <Tracks/>
                 <Prizes/>
+                <Schedule/>
                 <section className="w-full bg-slate-900 py-16">
                     <div className="w-4/5 max-w-6xl mx-auto flex flex-col gap-4 items-center">
                         <Text as="h1" className="text-4xl font-semibold">
