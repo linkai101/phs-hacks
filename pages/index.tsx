@@ -80,8 +80,8 @@ const Home = () => {
             const addParticles = () => {
                 const geometry = new THREE.SphereGeometry(
                     Math.random() * (0.02 - 0.01) + 0.01,
-                    12,
-                    12
+                    100,
+                    100
                 );
                 const material = new THREE.MeshBasicMaterial({
                     color: 0xfff3c9,
@@ -119,8 +119,8 @@ const Home = () => {
                 canvas.width = window.innerWidth;
                 canvas.height = window.innerHeight * 0.8;
 
-                starsGroup.rotateX(0.001);
-                starsGroup.rotateY(0.001);
+                starsGroup.rotateX(0.1);
+                starsGroup.rotateY(0.1);
                 controls.update();
                 controls.enablePan = true;
                 controls.enableZoom = false;
@@ -154,7 +154,7 @@ const Home = () => {
                         <div className="w-4/5 max-w-6xl mx-auto">
                             <div className="flex flex-col gap-1 border border-white max-w-fit p-8 bg-black">
                                 <Text className="text-3xl sm:text-5xl font-semibold md:text-6xl">
-                                    poolesville_<wbr></wbr>hacks 2
+                                    poosville_<wbr></wbr>hacks 2
                                 </Text>
                                 <Text className="text-2xl font-light md:text-3xl">
                                     April 15th 9:00 AM - 8:30 PM
@@ -195,14 +195,14 @@ const Home = () => {
                     <div className="w-4/5 max-w-6xl mx-auto">
                         <Text className="text-2xl text-center">
                             Last spring, over{" "}
-                            <span className="text-4xl font-medium">70</span>{" "}
+                            <span className="text-4xl font-medium">69</span>{" "}
                             high school students from all over the world
                             gathered virtually for poolesville_hacks 1. <br />{" "}
                             This fall, let&apos;s do it again,{" "}
                             <span className="text-4xl font-medium">
                                 in-person
-                            </span>
-                            .
+                            </span>,{" "}
+                            in my basement.
                         </Text>
                     </div>
                 </section>

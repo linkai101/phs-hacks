@@ -1,44 +1,8 @@
 [
     {
-        "name": "MLH Pizza Fund",
-        "path": "mlh.png",
-        "url": "hhttps://mlh.gitbook.io/major-league-hacking-pizza-fund/GXukjsbPHOyBplCPibsj/",
-        "tier": "silver"
-    },
-    {
-        "name": "Sentry",
-        "path": "sentry.svg",
-        "url": "https://sentry.io/welcome/",
-        "tier": "bronze"
-    },
-    {
-        "name": "Postman",
-        "path": "postman.png",
-        "url": "https://www.postman.com/student-program/#student-expert-program",
-        "tier": "bronze"
-    },
-    {
-        "name": "Sticker Giant",
-        "path": "stickergiant.svg",
-        "url": "https://www.stickergiant.com/",
-        "tier": "iron"
-    },
-    {
-        "name": "Wolfram Language",
-        "path": "wolfram.png",
-        "url": "https://www.wolfram.com/wolfram-one/",
-        "tier": "iron"
-    },
-    {
-        "name": "Beacons",
-        "path": "beacons.png",
-        "url": "https://beacons.ai/",
-        "tier": "iron"
-    },
-    {
         "name": "BlairHacks",
         "path": "bhacks.png",
-        "url": "https://blairhacks.com/",
-        "tier": "iron"
+        "url": "https://blairhacks.com",
+        "tier": "silver"
     }
 ]

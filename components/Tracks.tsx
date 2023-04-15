@@ -19,21 +19,21 @@ export default function Tracks() {
                     <div className="border-2 border-white rounded-lg p-4 w-full flex flex-col items-center">
                         <Icon path={mdiRocketLaunch} size={8} />
                         <Text as="h2" className="text-3xl font-semibold">
-                            Our World
+                            Our Nuts
                         </Text>
                         <Text className="text-2xl text-center">
-                            Environmentally focused or centered around peoples
-                            lives
+                            Environmentally focused or centered around people's
+                            nuts
                         </Text>
                     </div>
                     <div className="border-2 border-white rounded-lg p-4 w-full flex flex-col items-center">
                         <Icon path={mdiLightbulbNight} size={8} />
                         <Text as="h2" className="text-3xl font-semibold">
-                            Into the Unknown
+                            Into Deez Nuts
                         </Text>
                         <Text className="text-2xl text-center">
-                            Explore topics and tools that might be impactful for
-                            our future
+                            Explore nuts that might be impactful for
+                            your mom
                         </Text>
                     </div>
                     <div className="border-2 border-white rounded-lg p-4 w-full flex flex-col items-center">
