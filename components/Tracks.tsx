@@ -22,7 +22,7 @@ export default function Tracks() {
                             Our Nuts
                         </Text>
                         <Text className="text-2xl text-center">
-                            Environmentally focused or centered around people's
+                            Environmentally focused or centered around people&apos;s
                             nuts
                         </Text>
                     </div>
